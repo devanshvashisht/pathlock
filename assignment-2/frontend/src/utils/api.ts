@@ -24,7 +24,7 @@ export const api = {
         "Content-Type": "application/json",
         Authorization: `Bearer ${token}` 
       },
-      body: JSON.stringify({ name })
+      body: JSON.stringify({ title : name })
     });
     return res.json();
   },

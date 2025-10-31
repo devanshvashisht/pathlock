@@ -9,7 +9,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
-var MyAllowedOrigins = "_myAllowedOrigins";
+var MyAllowedOrigins = "MyAllowedOrigins";
 // Add Controllers and ignore cycles
 builder.Services.AddControllers().AddJsonOptions(options =>
 {

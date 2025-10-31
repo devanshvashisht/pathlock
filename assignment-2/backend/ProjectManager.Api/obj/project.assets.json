@@ -1575,11 +1575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/devanshvashisht/mini-project-manager/backend/ProjectManager.Api/ProjectManager.Api.csproj",
+      "projectUniqueName": "/Users/devanshvashisht/pathlock/pathlock/assignment-2/backend/ProjectManager.Api/ProjectManager.Api.csproj",
       "projectName": "ProjectManager.Api",
-      "projectPath": "/Users/devanshvashisht/mini-project-manager/backend/ProjectManager.Api/ProjectManager.Api.csproj",
+      "projectPath": "/Users/devanshvashisht/pathlock/pathlock/assignment-2/backend/ProjectManager.Api/ProjectManager.Api.csproj",
       "packagesPath": "/Users/devanshvashisht/.nuget/packages/",
-      "outputPath": "/Users/devanshvashisht/mini-project-manager/backend/ProjectManager.Api/obj/",
+      "outputPath": "/Users/devanshvashisht/pathlock/pathlock/assignment-2/backend/ProjectManager.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/devanshvashisht/.nuget/NuGet/NuGet.Config"

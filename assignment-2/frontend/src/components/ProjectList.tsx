@@ -3,13 +3,20 @@ import { useAuth } from "../context/AuthContext";
 import { api } from "../utils/api";
 import { Link } from "react-router-dom";
 
+type Project = {
+  id: number;
+  name: string;
+};
+
+
 export default function ProjectList() {
   const { token, logout } = useAuth();
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState<Project[]>([]);
+
   const [newProject, setNewProject] = useState("");
 
   useEffect(() => {
-    api.getProjects(token).then(setProjects);
+    api.getProjects(token).then((data: Project[]) => setProjects(data));
   }, []);
 
   const createProject = async () => {
