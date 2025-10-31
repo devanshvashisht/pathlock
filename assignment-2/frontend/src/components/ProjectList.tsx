@@ -43,7 +43,7 @@ export default function ProjectList() {
         {projects.map((p: any) => (
           <li key={p.id} className="border p-3 rounded bg-white">
             <Link to={`/projects/${p.id}`} className="text-blue-600 underline">
-              {p.name}
+              {p.title}
             </Link>
           </li>
         ))}
